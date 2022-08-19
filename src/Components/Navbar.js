@@ -1,5 +1,5 @@
 import React ,{useState}from 'react'
-import logo from '../Assets/logo.png'
+import logo from '../Assets/images/logo.png'
 import { Button } from '@mui/material'
 import { motion } from "framer-motion"
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';

@@ -1,8 +1,8 @@
 import React from 'react'
 import { Button } from '@mui/material';
-import elm from '../Assets/firstcom.png'
-import elm2 from '../Assets/twocom.png'
-import elm3 from '../Assets/thirdcom.png'
+import elm from '../Assets/images/firstcom.png'
+import elm2 from '../Assets/images/twocom.png'
+import elm3 from '../Assets/images/thirdcom.png'
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';
@@ -10,11 +10,10 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import CurrencyBitcoinIcon from '@mui/icons-material/CurrencyBitcoin';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import Wave from 'react-wavify'
-import wave1 from '../Assets/wave1.png'
 import '../CSS/HeaderBody.css'
 
 import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
-export default function HeaderBody() {
+export default function Landing() {
   return (
     <div className='headerbody'>
         <p id='header_text'>The 1st Social Network Where likes have value</p>

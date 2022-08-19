@@ -1,12 +1,13 @@
 import React from 'react'
-import HeaderBody from './HeaderBody'
 import Navbar from './Navbar'
 import '../CSS/Header.css'
-export default function Header() {
+import Landing from './Landing'
+export default function Main() {
   return (
     <div className='header'>
         <Navbar/>
-        <HeaderBody/>
+        <Landing/>
+
     </div>
   )
 }
