@@ -1,0 +1,121 @@
+.navbar{
+    display: flex;
+    
+    margin: 0px 2rem;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.sidebar-mobile {
+    position: absolute;
+    right: 0;
+    top: -2.7rem;
+    right: -0.5rem;
+    z-index: 99;
+    background-color: #f2f047;
+    padding-right: -1rem;
+    color: white;
+    /* padding-right: 0% !important; */
+    height: 100vh;
+    padding-bottom: 0.5rem;
+    transition:  0.9s linear ;
+    display: flex;
+    align-items: center;
+  }
+  .list_website {
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 30px;
+    width: 100%;
+    align-items: center;
+  }
+#logo{
+    width: 200px;
+    height: 39px;
+}
+.nav_left{
+    display: flex;
+    align-items: center;
+}
+.for_desktop{
+    display: flex;
+    justify-content: space-between;
+    margin: 0%;
+    
+
+}
+.for_mobile{
+    flex-direction: column;
+    list-style: none;
+    font-family: Myriad Pro;
+
+    text-align: start;
+}
+.for_desktop li{
+    padding: 0px 6px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 15pt;
+    color: white;
+    font-family: Myriad Pro;
+    font-weight: 100;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.nav_right{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.nav_right Button{
+    margin: 0px 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+#connnect{
+    background-color:#88cd7e;
+    font-size: 10px;
+    color: white;
+}
+#lang{
+    color: white;
+}
+#free{
+    border: 0.5px solid;
+    color: white;
+    /* padding: 8px; */
+    font-size: 10px;
+    border-color: white;
+}
+#btn_moviel{
+    color: white;
+    display: block;
+    position: relative;
+    z-index: 999;
+   
+    
+}
+@media (min-width: 900px)  {
+    #btn_moviel{
+        display: none;
+    }
+    .sidebar-mobile {
+        display: none;
+    }
+}
+@media (max-width: 900px)  {
+    #free{
+        display: none;
+    }
+    #lang{
+        display: none;
+    }
+    #connnect{
+        display: none;
+    }
+    .for_desktop{
+    display: none;
+    }
+}

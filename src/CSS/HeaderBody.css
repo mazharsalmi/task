@@ -1,0 +1,120 @@
+.headerbody{
+  margin-left: auto;
+  margin-right: auto;
+  width: 
+  55%;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.headerbody p{
+    margin: 0%;
+}
+#header_text{
+    font-size: 44pt;
+    font-family: Myriad Pro;
+    color: white;
+}
+#header_p{
+    font-family: Poppins;
+    color: white;
+    font-size: 20pt;
+    margin-top: 5px;
+}
+.header_btn Button{
+    background-color: white;
+    border-radius: 20px;
+    margin: 0px 10px;
+    margin-top: 2rem;
+    padding: 5px 12px;
+    color: #6fc15e;
+    font-family: Myriad Pro;
+    font-size: 14pt;
+
+}
+#curcel{
+    background-color: #75c25e;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    margin-left: 9px;
+}
+.elm{
+    position: absolute;
+    left: 5rem;
+    top: 15rem;
+}
+.elm2{
+    position: absolute;
+    right: 10rem;
+    top: 20rem;
+}
+.elm3{
+    position: absolute;
+    right:  5rem;
+    top: 15rem;
+}
+.icon{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 2rem;
+    top: 15rem;
+    background-color:#26a715 ;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 6px;
+    justify-content: space-between;
+}
+.wave{
+    position: absolute;
+    top: 32rem;
+    opacity: 40%;
+}
+.wave2{
+    position: absolute;
+    top: 33rem;
+    opacity: 50%;
+}
+@media (min-width: 900px)  {
+
+}
+@media (max-width: 900px)  {
+    .headerbody{
+        width:60%;
+        
+    }
+    #header_text{
+        font-size: 25pt;
+    
+      }
+      #header_p{
+        font-size: 12px;
+        margin-top: 1rem;
+      }
+      .icon{
+        top: 10rem;
+        right: 1rem;
+      }
+      .header_btn Button {
+        width: 16rem;
+      }
+      #btn_whitepage{
+        margin-top: 8px;
+      }
+      #curcel{
+        
+        margin-left: auto;
+      }
+      .elm{
+        position: absolute;
+        left: 1rem;
+        top: 5rem;
+    }
+}
